@@ -1,0 +1,36 @@
+body {
+  background: rgb(0, 150, 136);
+}
+
+#lint {
+  display: inline-block;
+  background-size: 300px 500px;
+  display: inline-block;
+  width: 300px;
+  height: 500px;
+}
+
+.piece {
+  margin: -3px -1px 0 0;
+  padding: 0;
+  display: inline-block;
+  border: 1px #000 solid;
+  transition: margin 1s ease-in-out;
+}
+
+#lint, .piece {
+  background: url(/api/puzme/random-image) no-repeat center;
+  background-size: 300px 500px;
+}
+
+.piece-x {
+  background: none !important;
+}
+
+#box-piece {
+  display: inline-block;
+}
+
+#move {
+  margin-top: 50px;
+}

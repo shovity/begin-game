@@ -1,0 +1,27 @@
+extends ../master
+
+block head
+	link(rel='stylesheet', href='/stylesheets/plane.css')
+
+block content
+
+	//- top bar
+	div(id='top-bar')
+		div(id='num-ol') 0 online
+		div(id='num-fps') 24 fps
+
+	//- Canvas
+	canvas(id='canvas')
+
+	//- images sources
+	img(src="/images/p-r.gif" id="plane-1" style="display: none")
+	img(src="/images/p-y.gif" id="plane-2" style="display: none")
+
+	//- Match box
+	div(id='match-box')
+		div(id='progress')
+			div(id='cursor-1' class='cursor')
+			div(id='cursor-2' class='cursor')
+			div(id='cursor-3' class='cursor')
+		p(id='meg-match') Start to finding someone!
+		a(id='start-match' class='btn') Start Finding Match

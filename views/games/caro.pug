@@ -1,0 +1,24 @@
+extends ../master
+
+block content
+	canvas(id='canvas')
+	div(id='menu-right')
+	div(id='top-bar')
+		div(id='num-ol') 0 online
+
+	//- Alert message
+	div(id='al' class='fade')
+		div(id='al-meg')
+		a(id='al-ok' class='btn btn-small') OK
+
+	//- Match box
+	div(id='match-box')
+		div(id='progress')
+			div(id='cursor-1' class='cursor')
+			div(id='cursor-2' class='cursor')
+			div(id='cursor-3' class='cursor')
+		p(id='meg-match') Start to finding someone!
+		a(id='start-match' class='btn') Start Finding Match
+
+	//- Crazy duck
+	span(id='duck' class='display-none')

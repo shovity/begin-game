@@ -1,0 +1,23 @@
+{
+  "name": "begin-game",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "mongodb": "^2.2.27",
+    "morgan": "~1.8.1",
+    "pug": "^2.0.0-rc.2",
+    "serve-favicon": "~2.4.2",
+    "socket.io": "^2.0.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "style-loader": "^0.18.1"
+  }
+}
